@@ -123,6 +123,14 @@
 }
 
 @media screen and (max-width: 650px) {
+
+  .gpt3__whatgpt3{
+    margin: 1.5rem;
+  }
+  .gpt3__whatgpt3-container{
+    margin: 0 -1rem;
+  }
+
   /* Customizing feature component as per needs */
   .gpt3__whatgpt3-feature .gpt3__features-container__feature {
     flex-direction: column;

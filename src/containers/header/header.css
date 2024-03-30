@@ -1,6 +1,6 @@
 .gpt3__header {
   display: flex;
-  padding: 0 6rem;
+  padding: 0 5rem;
   /* here i did mannual things */
 }
 .gpt3__header-content {
@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 5rem;
+  margin-right: 0rem;
 }
 
 .gpt3__header-content h1 {
@@ -101,11 +101,14 @@
 @media screen and (max-width: 1050px) {
   .gpt3__header {
     flex-direction: column;
+    padding: 0 2rem;
   }
 
   .gpt3__header-content {
     margin: 0 0 3rem;
+
   }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -127,10 +130,12 @@
     margin: 0;
   }
 
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
-    font-size: 16px;
+  .gpt3__header-content_input input,
+  .gpt3__header-content_input button {
+    font-size: 15px;
     line-height: 24px;
+    padding: 0.3rem 1rem;
+
   }
 }
 
@@ -145,8 +150,8 @@
     line-height: 24px;
   }
 
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .gpt3__header-content_input input,
+  .gpt3__header-content_input button {
     font-size: 12px;
     line-height: 16px;
   }
